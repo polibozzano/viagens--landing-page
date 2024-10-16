@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viajante</title>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <nav class="navbar">
+      <a href="#" class="logo">Viajante</a>
+      <input type="checkbox" id="check">
+      <div class="links">
+          <a href="#home">Início</a>
+          <a href="#ofertas">Ofertas e Destinos</a>
+          <a href="#servicos">Nossos Serviços</a>
+          <a href="#" class="meet">Contato</a>
+          <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+      </div>
+      <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+      </nav>
+
+    <div  id="home" class="header-content">
+      <h1>Um <span>novo mundo</span> lhe aguarda</h1>
+      <p>Aventuras inesquecíveis esperam por você. 
+        <br>Reserve sua próxima viagem hoje.</p>
+      <button><a href="#ofertas">Explorar</a></button>
+    </div>
+  </header>
+
+  <!-- SECTION 01 - Ofertas e Destinos-->
+  <section id="ofertas" class="ofertas">
+    <h1 class="section-title">Ofertas e Destinos</h1>
+    <p class="section__description">
+      Embarque em uma viagem inesquecível com nossa plataforma de viagem e turismo, onde o desejo de viajar vira conveniência.
+    </p>
+
+    <div class="ofertas-cards">
+      <div class="card">
+        <div class="card-tag card-tag-top">
+          <p>Recomendado para você</p>
+        </div>
+        <div class="card-tag card-tag-bottom">
+          <p>R$ 1850,00</p>
+        </div>
+        <img class="card-image" src="assets/florianopolis.jpg" alt="Florianópolis">
+        <div class="card-content">
+          <h1>Pacote 7 noites em Floripa</h1>
+          <ul>
+            <li><i data-feather="coffee"></i>Café da manhã incluso</li>
+            <li><i data-feather="wifi"></i>Wi-Fi</li>
+            <li><i data-feather="map"></i>Passeio</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-tag card-tag-top">
+          <p>Recomendado para você</p>
+        </div>
+        <div class="card-tag card-tag-bottom">
+          <p>R$ 750,00</p>
+        </div>
+        <img class="card-image" src="assets/novaveneza.jpg" alt="Nova Veneza">
+        <div class="card-content">
+          <h1>Pacote 3 dias em Nova Veneza</h1>
+          <ul>
+            <li><i data-feather="coffee"></i>Café da manhã incluso</li>
+            <li><i data-feather="wifi"></i>Wi-Fi</li>
+            <li><i data-feather="map"></i>Passeio incluso dos Pontos Turísticos</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-tag card-tag-top">
+          <p>Pacotes</p>
+        </div>
+        <div class="card-tag card-tag-bottom">
+          <p>R$ 7500,00</p>
+        </div>
+        <img class="card-image" src="assets/disney.jpg" alt="Disney">
+        <div class="card-content">
+          <h1>5 dias nos Parques da Disney</h1>
+          <ul>
+            <li><i data-feather="coffee"></i>Café da manhã incluso</li>
+            <li><i data-feather="wifi"></i>Wi-Fi</li>
+            <li><i data-feather="map"></i>Ticket dos Parques Incluso</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-tag card-tag-top">
+          <p>Pacotes</p>
+        </div>
+        <div class="card-tag card-tag-bottom">
+          <p>R$ 3900,00</p>
+        </div>
+        <img class="card-image" src="assets/paris.webp" alt="Paris">
+        <div class="card-content">
+          <h1>4 dias em Paris </h1>
+          <ul>
+            <li><i data-feather="coffee"></i>Café da manhã incluso</li>
+            <li><i data-feather="wifi"></i>Wi-Fi</li>
+            <li><i data-feather="map"></i>Passeio nos Pontos Turísticos</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-tag card-tag-top">
+          <p>Pacotes</p>
+        </div>
+        <div class="card-tag card-tag-bottom">
+          <p>R$ 3120,00</p>
+        </div>
+        <img class="card-image" src="assets/fernandodenoronha.jpg" alt="Fernando de Noronha">
+        <div class="card-content">
+          <h1>Pacote 14 dias em Fernando de Noronha</h1>
+          <ul>
+            <li><i data-feather="coffee"></i>Café da manhã incluso</li>
+            <li><i data-feather="wifi"></i>Wi-Fi</li>
+            <li><i data-feather="map"></i>Passeio de buggy</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-tag card-tag-top">
+          <p>Pacotes</p>
+        </div>
+        <div class="card-tag card-tag-bottom">
+          <p>R$ 2500,00</p>
+        </div>
+        <img class="card-image" src="assets/miamibeach.jpg" alt="Canada">
+        <div class="card-content">
+          <h1>Pacote 5 noites em Miami Beach</h1>
+          <ul>
+            <li><i data-feather="coffee"></i>Café da manhã incluso</li>
+            <li><i data-feather="wifi"></i>Wi-Fi</li>
+            <li><i data-feather="map"></i>Passeio</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 02 - Nossos Serviços -->
+  <section  id="servicos" class="servicos">
+    <h1 class="section-title">Nossos Serviços</h1>
+    <p class="section__description">
+      Embarque em uma viagem inesquecível com nossa plataforma de viagem e turismo, onde o desejo de viajar vira conveniência.
+    </p>
+    <div class="servicos-cards">
+      <div class="card">
+        <img src="assets/service-1.jpg" class="card-image" alt="Cruzeiros">
+        <div class="card-content">
+          <h3>Cruzeiros</h3>
+          <p>Navegue pelo paraíso! Explore destinos incríveis em nossos luxuosos cruzeiros. Relaxe, desfrute e descubra o mundo pelo mar.</p>
+        </div>
+        <button class="card-btn">Saiba mais</button>
+      </div>
+
+      <div class="card">
+        <img src="assets/service-2.jpg" alt="Aluguel de Carros" class="card-image">
+        <div class="card-content">
+          <h3>Aluguel de Carros</h3>
+          <p>Liberdade para explorar! Encontre o carro perfeito para suas aventuras, com tarifas acessíveis e opções flexíveis para cada jornada.</p>
+        </div>
+        <button class="card-btn">Saiba mais</button>
+      </div>
+      
+      <div class="card">
+        <img src="assets/service-3.jpg" alt="Passagem Aérea" class="card-image">
+        <div class="card-content">
+          <h3>Aluguel de Veículo</h3>
+          <p>Alcance novos horizontes! Reserve sua passagem aérea com as melhores tarifas e voe para destinos dos seus sonhos com conforto e segurança.</p>
+        </div>
+        <button class="card-btn">Saiba mais</button>
+      </div>
+
+      <div class="card">
+        <img src="assets/service-4.jpg" alt="Hospedagem" class="card-image">
+        <div class="card-content">
+          <h3>Hospedagem</h3>
+          <p>Encontre o refúgio perfeito! Hospede-se nos melhores hotéis e aproveite acomodações de alta qualidade para uma viagem inesquecível.</p>
+        </div>
+        <button class="card-btn">Saiba mais</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 03 - Subscribe -->
+  <section class="subscribe-container">
+    <div class="subscribe-content">
+      <h2>
+        Inscreva-se para receber ofertas exclusivas
+      </h2>
+      <form class="email-subscribe">
+        <label for="email">
+          <p>Insira seu e-mail</p>
+        </label>
+        <input type="email" name="email" id="email" />
+        <input type="button" class="sub-button" value="Quero recebê-las!" />
+      </form>
+      <p>Você receberá e-mails promocionais da Viajante. Para mais informações, consulte as políticas de privacidade.</p>
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>VIAJANTE</h4>
+          <p>Transformamos seus sonhos em realidade. Com anos de experiência, oferecemos pacotes personalizados que atendem às suas necessidades e desejos. Planeje sua próxima aventura conosco e descubra o mundo com confiança e facilidade.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Minha Conta</h4>
+          <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#ofertas">Ofertas e Destinos</a></li>
+            <li><a href="#home">Minhas Viagens</a></li>
+            <li><a href="#home">Crie sua conta</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Sobre a Viajante</h4>
+          <ul>
+            <li><a href="#home">Sobre a Viajante</a></li>
+            <li><a href="#servicos">Nossos Serviços</a></li>
+            <li><a href="#home">FAQ's</a></li>
+            <li><a href="#home">Política de Privacidade</a></li>
+            <li><a href="#home">Dicas de Segurança</a></li>
+            <li><a href="#home">Central de Ajuda</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script>
+    // feather icons
+    feather.replace();
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+            });
+        });
+    });
+  </script>
+</body>
+
+</html>
